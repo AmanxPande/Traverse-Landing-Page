@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@500&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@200&family=Padauk&family=Patrick+Hand&family=Roboto+Mono:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url("img/mountain7.jpg");
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.box1 {
+  width: 1170px;
+  margin: auto;
+}
+
+.nav-area {
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+  background-color: #61a0bf;
+  border-radius: 10px;
+  padding: 12px;
+  opacity: .6;
+}
+
+.nav-area li {
+  display: inline-block;
+}
+
+.nav-area li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: Padauk;
+  font-size: 15px;
+}
+
+.logo img {
+  position: absolute;
+  float: left;
+  height: 70px;
+  width: 70px;
+  padding-top: 10px;
+}
+
+.nav-area li a:hover {
+  color: #000;
+  font-family: cursive;
+}
+
+.text {
+  padding: 130px 80px;
+}
+
+.sentence1 {
+  color: #518cc8;
+  font-family: cursive;
+}
+
+h1 {
+  color: #254d74;
+  font-family: 'Padauk';
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 2px 3px #005580;
+}
+
+.sentence2 {
+  color: #004466;
+  font-family: 'Bree sarif';
+}
+
+.btn {
+  background: #518cc8;
+  padding: 10px 18px;
+  text-decoration: none;
+  color: #d9d9d9;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 7px;
+  font-weight: 200;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover {
+  background: #adc2eb;
+  color: #142952;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 36px;
+  color: black;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.credit-hover {
+  text-decoration: none;
+  color: black;
+}
+
+.credit-hover:hover {
+  color: #fff;
+}
+
+.cards {
+  position: relative;
+  float: right;
+  padding-left: 30px;
+}
+
+.card {
+  width: 170px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 6px 10px;
+  box-shadow: 0 0 30px #003333;
+  opacity: .8;
+}
+
+.card1 {
+  background-image: url("img/rafting.jpg");
+}
+
+.card2 {
+  background-image: url("img/camping2.jpg");
+}
+
+.card3 {
+  background-image: url("img/Scuba.jpg");
+}
+
+h5 {
+  color: #fff;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.cards p {
+  color: #e6e6e6;
+  padding-top: 5px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 50px #003333;
+}
